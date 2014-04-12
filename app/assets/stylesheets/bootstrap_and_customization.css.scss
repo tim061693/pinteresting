@@ -5,3 +5,11 @@ $btn-default-bg: #e74c3c;
 $brand-primary: #e74c3c;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
