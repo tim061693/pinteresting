@@ -3,7 +3,7 @@
 	<h1>Join RideShare</h1>
 
 	<% if user_signed_in? %>
-		# do something
+		<%= link_to createprofile_path %>
 	<% else %>
 		<p>	
 			<%= link_to "Sign In", new_user_session_path, :class => "btn btn-default btn-lg" %>
